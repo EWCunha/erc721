@@ -128,13 +128,13 @@ contract ERC721 {
     }
 
     // EIP165: Query if a contract implements another interface (checks if another smart contract have the functions that are been looked for)
-    function supportsInterface(bytes4 interfaceId)
+    function supportsInterface(bytes4 _interfaceId)
         public
         pure
         virtual
         returns (bool)
     {
-        return interfaceId == 0x80ac58cd;
+        return _interfaceId == 0x80ac58cd;
     }
 
     modifier tokenIdExists(uint256 _tokenId) {
