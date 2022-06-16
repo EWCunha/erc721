@@ -1,15 +1,3 @@
-# Basic Sample Hardhat Project
+# ERC721 token standard
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+This is a ERC721 token standard smart contract implemented by me. It follows the [EIP-721](https://eips.ethereum.org/EIPS/eip-721) and [EIP-165](https://eips.ethereum.org/EIPS/eip-165) protocols.
